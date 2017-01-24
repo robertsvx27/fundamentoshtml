@@ -24,15 +24,15 @@
 
 <body>
 
-    <header class="demo-header" >
-            
-      <div class="mdl-layout__header-row">
-        <img src="images/encabezado.png" height="87px" width="202px"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><h1>Hoja de Vida</h1></span>
-      </div>
-       <div class="Subtitulos">
-        <h2>Roberto Saavedra Vaca</h2>
-        <h3>Santa Cruz, Bolivia 27 de Marzo de 1985</h3>  
-       </div>    
+  <header class="demo-header">
+
+    <div class="mdl-layout__header-row">
+      <img src="images/encabezado.png" height="87px" width="202px" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><h1>Hoja de Vida</h1></span>
+    </div>
+    <div class="Subtitulos">
+      <h2>Roberto Saavedra Vaca</h2>
+      <h3>Santa Cruz, Bolivia 27 de Marzo de 1985</h3>
+    </div>
     <nav class="demo-ribbon">
       <ul>
         <li><a href="index.html">Inicio</a></li>
@@ -40,23 +40,27 @@
         <li><a href="experiencia.html">Experiencia</a></li>
       </ul>
     </nav>
-    </header>  
-  
+  </header>
+
   <div class="demo-container">
-  <h2>Educación</h2>
-  <img src="images/perfil.png" height="300px" width="300px" />  
-  <p class="perfil">Soy un profesional con experiencia en aplicaciones Moviles (Windows Mobile y Android), Web (Asp.net, Framework Gizmox)
-    y Visual Basic.Net, Web Services WCF, SOAP, RESTFUL, Integración de Sistemas Core (SAI, TR4, Orix). Responsable, puntual
-    y comprometido con el trabajo que realiza, trabajando en equipo y/o bajo presión.</p>
-  <h4>Idiomas</h4>
-  <ul>
-    <li>Español -> Hablado y escrito nivel Avanzado</li>
-    <li>Ingles -> Hablado y escrito nivel medio</li>
-  </ul>
-  
-  
+    <h2>Experiencia</h2>
+    <h4>Mi presentacion</h4>
+    <video poster="images/perfil.png" width="640" height="360" controls preload>
+      <source src="asset/Mipresentacion.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+      <source src="asset/Mipresentacion.ogg" type='video/ogg; codecs="theora,vorbis"' />
+      <source src="asset/Mipresentacion.webm" type='video/webm; codecs="vp8,vorbis"' />
+      <object>
+        <embed src="asset/Mipresentacion.mp4" type= "application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" />
+      </object>
+      Tu navegador no implementa el elemento <code>video</code>.
+    </video>
+    <h4>Mis hobbies y actividades</h4>
+    <audio controls preload>
+      <source src="asset/Mipresentacion.mp3" type="audio/mpeg">
+      <source src="asset/Mipresentacion.m4a" type="audio/mp4">
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
   </div>
-  
   <footer>
     <div class="demo-footer">
       <strong>Email :</strong> roberto.saavedrav@gmail.com
@@ -65,4 +69,5 @@
     </div>
   </footer>
 </body>
+
 </html>

@@ -24,15 +24,15 @@
 
 <body>
 
-    <header class="demo-header" >
-            
-      <div class="mdl-layout__header-row">
-        <img src="images/encabezado.png" height="87px" width="202px"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><h1>Hoja de Vida</h1></span>
-      </div>
-       <div class="Subtitulos">
-        <h2>Roberto Saavedra Vaca</h2>
-        <h3>Santa Cruz, Bolivia 27 de Marzo de 1985</h3>  
-       </div>    
+  <header class="demo-header">
+
+    <div class="mdl-layout__header-row">
+      <img src="images/encabezado.png" height="87px" width="202px" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><h1>Hoja de Vida</h1></span>
+    </div>
+    <div class="Subtitulos">
+      <h2>Roberto Saavedra Vaca</h2>
+      <h3>Santa Cruz, Bolivia 27 de Marzo de 1985</h3>
+    </div>
     <nav class="demo-ribbon">
       <ul>
         <li><a href="index.html">Inicio</a></li>
@@ -40,29 +40,79 @@
         <li><a href="experiencia.html">Experiencia</a></li>
       </ul>
     </nav>
-    </header>  
-  
+  </header>
+
   <div class="demo-container">
-  <h2>Educación</h2>
-  <img src="images/perfil.png" height="300px" width="300px" />  
-  <p class="perfil">Soy un profesional con experiencia en aplicaciones Moviles (Windows Mobile y Android), Web (Asp.net, Framework Gizmox)
-    y Visual Basic.Net, Web Services WCF, SOAP, RESTFUL, Integración de Sistemas Core (SAI, TR4, Orix). Responsable, puntual
-    y comprometido con el trabajo que realiza, trabajando en equipo y/o bajo presión.</p>
-  <h4>Idiomas</h4>
-  <ul>
-    <li>Español -> Hablado y escrito nivel Avanzado</li>
-    <li>Ingles -> Hablado y escrito nivel medio</li>
-  </ul>
-  
-  
+    <h2>Educación</h2>
+
+    <table border="1" cellpadding="1" cellspacing="1" style="width: 100%">
+<thead>
+  <tr>
+    <th scope="col">
+      A&ntilde;o</th>
+    <th scope="col">
+      Instituci&oacute;n</th>
+    <th scope="col">
+      Lugar</th>
+    <th scope="col">
+      Culmin&oacute;?</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      2002</td>
+    <td>
+      Colegio Parroquial San Jose</td>
+    <td>
+      Portachuelo - Santa Cruz</td>
+    <td>
+      Si</td>
+  </tr>
+  <tr>
+    <td>
+      2009</td>
+    <td>
+      UDABOL</td>
+    <td>
+      Santa Cruz</td>
+    <td>
+      Si</td>
+  </tr>
+</tbody>
+</table>
+  <h3>Agregar Estudios</h3>
+<form >
+  <label><strong>Año:</strong></label>
+  <select name="year" id="year" required>
+    <option value="2017">2017</option>
+    <option value="2016">2016</option>
+    <option value="2017">2015</option>
+    <option value="2014">2014</option>
+    <option value="2013">2013</option>
+    <option value="2012">2012</option>
+    <option value="2011">2011</option>
+    <option value="2010">2010</option>
+    <option value="2009">2009</option>
+</select> <br><br>
+<label><strong> Instituci&oacute;n:</strong></label>
+<input type="text"/> <br><br>
+<label><strong> Lugar:</strong></label>
+<input type="text"/> <br><br>
+<label><strong> Culmin&oacute;?</strong></label>
+Si <input  name="culminacion" type="radio" value="Si">
+No <input  name="culminacion" type="radio" value="No" /><br><br>
+<input type="submit" name="Enviar" value="Enviar"/>
+</form>
+</div>
+
+<footer>
+  <div class="demo-footer">
+    <strong>Email :</strong> roberto.saavedrav@gmail.com
+    <strong>Telefono:</strong> +591 79467560 +591 3 3233160
+    <strong>Direccion:</strong> Santa Cruz, Bolivia Urb Motacu Km 18 Carretera Warnes
   </div>
-  
-  <footer>
-    <div class="demo-footer">
-      <strong>Email :</strong> roberto.saavedrav@gmail.com
-      <strong>Telefono:</strong> +591 79467560 +591 3 3233160
-      <strong>Direccion:</strong> Santa Cruz, Bolivia Urb Motacu Km 18 Carretera Warnes
-    </div>
-  </footer>
+</footer>
 </body>
+
 </html>
